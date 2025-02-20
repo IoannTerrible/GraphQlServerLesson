@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQlAspServer", "GraphQlAspServer\GraphQlAspServer.csproj", "{1C6401D0-E9F6-49E4-AF12-A6296C8637D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQlProvider", "GraphQlProvider\GraphQlProvider.csproj", "{2CA7E37D-86FD-400D-ACB2-C1BD10581944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleDatabasePrj", "SampleDatabasePrj\SampleDatabasePrj.csproj", "{FC9EA683-10EA-4AE3-BF50-3F91E36947A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Framework", "Core.Framework\Core.Framework.csproj", "{FECF79CE-6DED-4D69-91EA-73F768CD0E8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQlConsoleClient", "GraphQlConsoleClient\GraphQlConsoleClient.csproj", "{2A14FA63-17D4-41A6-8AE3-2764A475AA8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{2CA7E37D-86FD-400D-ACB2-C1BD10581944}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CA7E37D-86FD-400D-ACB2-C1BD10581944}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CA7E37D-86FD-400D-ACB2-C1BD10581944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC9EA683-10EA-4AE3-BF50-3F91E36947A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9EA683-10EA-4AE3-BF50-3F91E36947A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9EA683-10EA-4AE3-BF50-3F91E36947A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9EA683-10EA-4AE3-BF50-3F91E36947A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FECF79CE-6DED-4D69-91EA-73F768CD0E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECF79CE-6DED-4D69-91EA-73F768CD0E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FECF79CE-6DED-4D69-91EA-73F768CD0E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FECF79CE-6DED-4D69-91EA-73F768CD0E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A14FA63-17D4-41A6-8AE3-2764A475AA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A14FA63-17D4-41A6-8AE3-2764A475AA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A14FA63-17D4-41A6-8AE3-2764A475AA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A14FA63-17D4-41A6-8AE3-2764A475AA8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
